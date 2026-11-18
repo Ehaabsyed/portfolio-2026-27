@@ -94,7 +94,7 @@ export default function Contact() {
 
       setFields(initialFields);
       setStatus("success");
-      setStatusMessage("Message delivered successfully via Resend. I will respond to your inquiry shortly.");
+      setStatusMessage("Message delivered successfully. I will respond to your inquiry shortly.");
     } catch {
       setStatus("error");
       setStatusMessage("Network error: Could not reach the server. Please check your connection or contact directly via email.");
